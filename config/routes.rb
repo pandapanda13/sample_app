@@ -8,6 +8,5 @@ Rails.application.routes.draw do
   patch 'lists/:id' => 'lists#update', as: 'update_list'
   delete 'lists/:id' => 'lists#destroy', as: 'destroy_list'
 
-
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
